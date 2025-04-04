@@ -18,3 +18,38 @@
     font-family: "MyCustomFont", sans-serif;
   }
 }
+
+.highcharts-xaxis .highcharts-tick {
+  stroke-width: 0px;
+}
+/* .highcharts-button-pressed:hover rect {
+  fill: var(--color-primary);
+}
+.highcharts-button-pressed:hover text {
+  fill: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+} */
+
+/* .highcharts-button-hover rect {
+  fill: #4b40ee !important;
+}
+
+.highcharts-button-pressed text {
+  fill: #ffffff !important;
+}
+
+.highcharts-button-pressed:hover rect {
+  fill: #4b40ee !important;
+}
+
+.highcharts-button-pressed:hover text {
+  fill: #ffffff !important;
+} */
+.highcharts-button-selected rect {
+  fill: #4b40ee !important;
+}
+.highcharts-button-selected text {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
