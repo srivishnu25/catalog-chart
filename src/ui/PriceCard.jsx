@@ -17,7 +17,9 @@ export default function PriceCard({ currentPrice, prevPrice }) {
         className={`text-lg ${
           priceChange.sign === "+" ? "text-[#67BF6B]" : "text-red-500"
         }`}
-      >{`${priceChange.sign} ${priceChange.value} (${priceChange.percentage}%)`}</h5>
+      >{`${priceChange.sign} ${formatPrice(priceChange.value)} (${
+        priceChange.percentage
+      }%)`}</h5>
     </div>
   );
 }
